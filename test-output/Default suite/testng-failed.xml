@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Daman.SeleniumAssignment.PlaceOrder">
+      <class name="AssigmentWeek16.MouseHover">
         <methods>
+          <include name="verifyHoverMouse"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifyOrderPlaced"/>
         </methods>
-      </class> <!-- com.Daman.SeleniumAssignment.PlaceOrder -->
+      </class> <!-- AssigmentWeek16.MouseHover -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

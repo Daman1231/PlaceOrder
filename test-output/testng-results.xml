@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-15T03:26:41Z" name="Default suite" finished-at="2022-12-15T03:27:29Z" duration-ms="47414">
+  <suite started-at="2022-12-22T03:33:05Z" name="Default suite" finished-at="2022-12-22T03:33:13Z" duration-ms="8702">
     <groups>
     </groups>
-    <test started-at="2022-12-15T03:26:41Z" name="Default test" finished-at="2022-12-15T03:27:29Z" duration-ms="47414">
-      <class name="com.Daman.SeleniumAssignment.PlaceOrder">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Daman.SeleniumAssignment.PlaceOrder@481ba2cf]" started-at="2022-12-15T03:26:41Z" name="setUp" finished-at="2022-12-15T03:26:53Z" duration-ms="11214" status="PASS">
+    <test started-at="2022-12-22T03:33:05Z" name="Default test" finished-at="2022-12-22T03:33:13Z" duration-ms="8702">
+      <class name="AssigmentWeek16.ValidatePurchaseOfItem">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AssigmentWeek16.ValidatePurchaseOfItem@36b4091c]" started-at="2022-12-22T03:33:05Z" name="setUp" finished-at="2022-12-22T03:33:09Z" duration-ms="3731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyOrderPlaced()[pri:1, instance:com.Daman.SeleniumAssignment.PlaceOrder@481ba2cf]" started-at="2022-12-15T03:26:53Z" name="verifyOrderPlaced" finished-at="2022-12-15T03:27:28Z" duration-ms="35801" status="PASS">
+        <test-method signature="validatePurchaseOfItem()[pri:0, instance:AssigmentWeek16.ValidatePurchaseOfItem@36b4091c]" started-at="2022-12-22T03:33:09Z" name="validatePurchaseOfItem" finished-at="2022-12-22T03:33:13Z" duration-ms="4720" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOrderPlaced -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Daman.SeleniumAssignment.PlaceOrder@481ba2cf]" started-at="2022-12-15T03:27:28Z" name="tearDown" finished-at="2022-12-15T03:27:29Z" duration-ms="334" status="PASS">
+        </test-method> <!-- validatePurchaseOfItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AssigmentWeek16.ValidatePurchaseOfItem@36b4091c]" started-at="2022-12-22T03:33:13Z" name="tearDown" finished-at="2022-12-22T03:33:13Z" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Daman.SeleniumAssignment.PlaceOrder -->
+      </class> <!-- AssigmentWeek16.ValidatePurchaseOfItem -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

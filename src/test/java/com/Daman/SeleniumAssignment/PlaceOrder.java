@@ -41,13 +41,10 @@ public class PlaceOrder {
 		Assert.assertEquals(title, "My Account", "Invalid Credentials");
 		sleep();
 
-		//// #menu>div:last-of-type>ul>li:nth-of-type(2)>a
 		wd.findElement(By.cssSelector("#menu>div:last-of-type>ul>li:nth-of-type(2)>a")).click();
 		sleep();
 		wd.findElement(By.cssSelector("#menu> div:last-of-type>ul>li:nth-of-type(2)>div>a")).click();
 		wd.findElement(By.cssSelector("#content>div:nth-of-type(4)>div:nth-of-type(3)>div>div:last-of-type a")).click();
-//		wd.findElement(By.cssSelector("div.product-layout:first-of-type div.product-thumb>div:nth-of-type(2) a"))
-//				.click();
 		sleep();
 		wd.findElement(By.cssSelector("button[id='button-cart']")).click();
 		sleep();
